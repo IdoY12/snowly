@@ -22,7 +22,7 @@
 
       const load = async () => {
         try {
-          const res = await axios.get("http://localhost:3000/");
+          const res = await axios.get("https://snowly1.onrender.com/");
           const data = res.data; // ["ido","maya","itay"]
 
           if (!Array.isArray(data)) throw new Error("Expected an array JSON");
